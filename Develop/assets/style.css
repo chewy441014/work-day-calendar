@@ -4,12 +4,12 @@ body {
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  width: 100%;
   padding: 10px;
 }
 
@@ -21,19 +21,19 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
+  padding: 15px;
   text-align: center;
-  border-radius: 15px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -63,9 +63,12 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
+  text-align: center;
   transition: all .3s ease-in-out;
 }
